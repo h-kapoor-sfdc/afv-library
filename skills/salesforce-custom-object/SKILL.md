@@ -1,6 +1,6 @@
 ---
 name: salesforce-custom-object
-description: Generate CustomObject metadata XML following Salesforce best practices. Ensures correct sharing models, name fields, and required elements. Use when creating new custom objects or modifying existing object metadata.
+description: Use this skill when users need to create, generate, or validate Salesforce Custom Object metadata. Trigger when users mention custom objects, creating objects, object metadata, .object files, sharing models, name fields, or validation rules on objects. Also use when users say things like "create a custom object", "generate object metadata", "set up an object for...", or when they're troubleshooting object deployment errors especially around sharing models and Master-Detail relationships. Always use this skill for any custom object metadata work.
 ---
 
 ## When to Use This Skill
@@ -14,7 +14,7 @@ Use this skill when you need to:
 
 ## Specification
 
-## 1. Purpose
+## 1. Overview and Purpose
 
 This document defines the mandatory constraints for generating CustomObject metadata XML (`.object` file). The agent must verify these constraints before outputting XML to prevent Metadata API deployment errors.
 

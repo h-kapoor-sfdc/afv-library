@@ -1,6 +1,6 @@
 ---
 name: salesforce-flow
-description: Generate Flow metadata using the mandatory 3-step pipeline (fetchGroundedObjectMetadata → flowElementSelection → flowElementGeneration). Use when creating Screen Flows, Autolaunched Flows, Record-Triggered Flows, or Scheduled Flows.
+description: Use this skill when users need to generate Salesforce Flows using the 3-step pipeline (fetchGroundedObjectMetadata → flowElementSelection → flowElementGeneration). Trigger when users mention creating flows, Screen Flows, Autolaunched Flows, Record-Triggered Flows, Scheduled Flows, Platform Event-Triggered Flows, flow metadata, flow automation, process automation, workflow automation, or generating flow XML. This skill guides through the mandatory 3-step MCP pipeline and ensures proper inflightMetadata formatting. Always use this skill for any flow generation or automation requests.
 ---
 
 ## When to Use This Skill

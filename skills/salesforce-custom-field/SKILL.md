@@ -1,6 +1,6 @@
 ---
 name: salesforce-custom-field
-description: Generate CustomField metadata XML with proper type handling, relationship rules, and formula syntax. Handles Master-Detail, Lookup, Roll-Up Summary, and Formula fields correctly. Use when creating or modifying custom fields.
+description: Use this skill when users need to create, generate, or validate Salesforce Custom Field metadata. Trigger when users mention custom fields, field types, Roll-up Summary fields, Master-Detail relationships, Lookup relationships, formula fields, picklists, or field metadata. Also use when users encounter field deployment errors, especially around Roll-up Summary format, Master-Detail constraints, or formula issues. Always use this skill for any custom field metadata work, field generation, or field troubleshooting.
 ---
 
 ## When to Use This Skill
@@ -11,6 +11,12 @@ Use this skill when you need to:
 - Set up relationship fields (Lookup or Master-Detail)
 - Create formula or roll-up summary fields
 - Troubleshoot deployment errors related to custom fields
+
+# Salesforce Custom Field Generator and Validator
+
+## Overview
+
+Generate and validate Salesforce Custom Field metadata with mandatory constraints to prevent deployment errors. This skill has special focus on the **highest-failure-rate field types**: Roll-up Summary and Master-Detail relationships.
 
 ## Specification
 

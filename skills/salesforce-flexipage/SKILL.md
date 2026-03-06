@@ -1,6 +1,6 @@
 ---
 name: salesforce-flexipage
-description: Generate FlexiPage metadata using CLI bootstrapping and MCP actions for component discovery. Use when creating Record Pages, App Pages, or Home Pages in Lightning Experience.
+description: Use this skill when users need to create, generate, modify, or validate Salesforce Lightning pages (FlexiPages). Trigger when users mention RecordPage, AppPage, HomePage, Lightning pages, page layouts, adding components to pages, or page customization. Also use when users say things like "create a Lightning page", "add a component to a page", "customize the record page", "generate a FlexiPage", or when they're working with FlexiPage XML files and need help with components, regions, or deployment errors. Always use this skill for any FlexiPage-related work, even if they just mention "page" in the context of Salesforce.
 ---
 
 ## When to Use This Skill
@@ -12,7 +12,6 @@ Use this skill when you need to:
 - Configure page structure and components
 - Troubleshoot deployment errors related to FlexiPages
 
-## Specification
 
 # FlexiPage Generation Guide
 
